@@ -30,23 +30,29 @@ You should add permission to execute (using `chmod +x`) the script, then run it 
 <br>
 If you want to use it "as command" the script needs to be executable, with: <br>
 <br>
+
 ```bash
 chmod +x scriptname
 ```
+
 <br>
 Also, you want the script to be located in a directory that is in your PATH. To see your PATH use: <br>
-<br> 
+<br>
+
 ```bash
 echo $PATH
 ```
+
 <br>
 Your choices are: to move (or link) the file into one of those directories, or to add the directory it is in to your PATH.<br>
 <br>
 You can add a directory to your PATH with:<br>
 <br>
+
 ```bash
 PATH=$PATH:/name/of/my/directory
 ```
+
 <br>
 and if you do this in the file `$HOME/.bashrc`/`$HOME/.zshrc` it will happen for each of your shell's automatically.<br>
 <br>
