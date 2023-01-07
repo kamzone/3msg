@@ -3,7 +3,7 @@
 
 # 3msg (mmmsg)
 
-Simple script wirtten in bash, to help with receiving and sending sms with ModemManager.
+Simple script wirtten in bash, to help with receiving and sending sms with ModemManager-cli.
 
  # Versions:    
 ### simple
