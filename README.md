@@ -54,9 +54,10 @@ PATH=$PATH:/name/of/my/directory
 ```
 
 <br>
-and if you do this in the file `$HOME/.bashrc` it will happen for each of your shell's automatically.<br>
+and if you do this in the file $HOME/.bashrc it will happen for each of your shell's automatically.<br>
 <br>
 [Link to stack overflow](https://stackoverflow.com/a/34656149/19238352) <br>
+
 ### Tested wwan cards
 -> EM7455 (Dell Latitude E7270) <br>
 
