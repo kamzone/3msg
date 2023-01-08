@@ -58,8 +58,11 @@ and if you do this in the file $HOME/.bashrc it will happen for each of your she
 <br>
  https://stackoverflow.com/a/34656149/19238352 <br>
 
+## Troubleshooting
+
+`error: couldn't find modem` -> If you encounter this one, probably variable `$modem_no` has inproper value. Run mmcli -L to determine your modem number. <br>
+
 ### Tested wwan cards
 -> EM7455 (Dell Latitude E7270) <br>
 
-copyleft (ɔ) kam021m<br>
-
+copyleft (ɔ) kam021m <br>
