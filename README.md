@@ -60,7 +60,7 @@ and if you do this in the file $HOME/.bashrc it will happen for each of your she
 
 ## Troubleshooting
 
-`error: couldn't find modem` -> If you encounter this one, probably variable `$modem_no` has inproper value. Run mmcli -L to determine your modem number. <br>
+`error: couldn't find modem` -> If you encounter this one, probably variable `$modem_no` has improper value. Run mmcli -L to determine your modem number. <br>
 
 ### Tested wwan cards
 -> EM7455 (Dell Latitude E7270) <br>
