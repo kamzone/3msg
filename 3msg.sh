@@ -14,9 +14,9 @@ then
 elif [ $selector == 'create' ]
 then
 	echo "Specify receipient number:"
-	message=$(gum input --placeholder "receipient number")
+	number=$(gum input --placeholder "receipient number")
 	echo "Write your message:"
-	number=$(gum write --placeholder "your message (<ESC> to end message)")
+	message=$(gum write --placeholder "your message (<ESC> to end message)")
 	mmcli -m $modem_no --messaging-create-sms="text='$message' ,number='$number'"
 elif [ $selector == 'send' ]
 then
