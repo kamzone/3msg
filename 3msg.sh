@@ -1,6 +1,6 @@
 #!/bin/bash
 selector=$(echo -e "list\nread\ncreate\nsend\ndelete\n" | gum filter --placeholder "Select operation")
-modem_no=0 # Set modem number value, determined using mmcli -L (0 is usually correct)
+modem_no=0 # Set modem number value, determined using mmcli -L (0 is usually, but not always correct) 
 
 if [ $selector == 'list' ]
 then
